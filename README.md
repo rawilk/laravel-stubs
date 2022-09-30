@@ -70,6 +70,12 @@ composer exec canvas make:migration CreatePostsTable --create
 
 Running this would generate a migration normally, just like the `php artisan make:migration` command would. For more information on canvas, please refer to their documentation.
 
+**Tip:** Create an alias for `composer exec canvas` in your profile to allow easier entering of your generator commands. I personally added the following alias to my bash profile:
+
+```bash
+alias canvas="composer exec canvas"
+```
+
 ## Testing
 
 ```bash

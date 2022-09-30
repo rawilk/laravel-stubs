@@ -1,0 +1,60 @@
+{
+    "name": "rawilk/laravel-stubs",
+    "description": "Opinionated modifications to the default Laravel stubs.",
+    "keywords": [
+        "Laravel",
+        "stubs",
+        "laravel-stubs"
+    ],
+    "homepage": "https://github.com/rawilk/laravel-stubs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Randall Wilk",
+            "email": "randall@randallwilk.dev",
+            "homepage": "https://randallwilk.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.0",
+        "spatie/laravel-package-tools": "^1.13"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.2",
+        "orchestra/testbench": "^7.8",
+        "pestphp/pest": "^1.22",
+        "pestphp/pest-plugin-parallel": "^1.2",
+        "spatie/laravel-ray": "^1.31"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rawilk\\Stubs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rawilk\\Stubs\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest -p",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rawilk\\Stubs\\StubsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

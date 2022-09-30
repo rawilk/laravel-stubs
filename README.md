@@ -41,6 +41,35 @@ You can publish the stubs using this command:
 php artisan custom-stub:publish
 ```
 
+## Usage in Packages
+
+If you're developing a package, you may pull these stubs in to your package and generate them just like you would with a normal Laravel project. This is possible when used with [Orchestral Canvas](https://github.com/orchestral/canvas). On your package project, run the following command:
+
+```bash
+composer require --dev rawilk/laravel-stubs orchestra/canvas
+```
+
+Next you need to run:
+
+```bash
+composer exec canvas preset package
+```
+
+Finally, modify the generated `canvas.yaml` file:
+
+```yaml
+preset: Rawilk\Stubs\Canvas\Package
+namespace: YourPackageNamespace
+```
+
+To generate a file, you can run the following command:
+
+```bash
+composer exec canvas make:migration CreatePostsTable --create
+```
+
+Running this would generate a migration normally, just like the `php artisan make:migration` command would. For more information on canvas, please refer to their documentation.
+
 ## Testing
 
 ```bash

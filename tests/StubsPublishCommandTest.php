@@ -12,7 +12,7 @@ it('can publish stubs', function () {
 
     $this->artisan(PublishStubsCommand::class)->assertExitCode(0);
 
-    $stubPath = __DIR__ . '/../stubs/migration.stub';
+    $stubPath = __DIR__.'/../stubs/migration.stub';
 
     $publishedStubsPath = "{$targetStubsPath}/migration.stub";
 

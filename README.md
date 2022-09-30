@@ -1,5 +1,9 @@
 # laravel-stubs
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rawilk/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/rawilk/laravel-stubs)
+![Tests](https://github.com/rawilk/laravel-stubs/workflows/Tests/badge.svg?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/rawilk/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/rawilk/laravel-stubs)
+
 This repo contains opinionated versions of the Laravel stubs. The most notable changes are:
 
 - migrations don't have a `down` function

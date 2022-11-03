@@ -6,6 +6,8 @@
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/rawilk/laravel-stubs?style=flat-square)](https://packagist.org/packages/rawilk/laravel-stubs)
 [![License](https://img.shields.io/github/license/rawilk/laravel-stubs?style=flat-square)](https://github.com/rawilk/laravel-stubs/blob/main/LICENSE.md)
 
+![Social image](https://banners.beyondco.de/laravel-stubs.png?theme=light&packageManager=composer+require&packageName=rawilk%2Flaravel-stubs+--dev&pattern=endlessClouds&style=style_1&description=Opinionated+modifications+to+the+default+Laravel+stubs.&md=1&showWatermark=0&fontSize=100px&images=collection)
+
 This repo contains opinionated versions of the Laravel stubs. The most notable changes are:
 
 - migrations don't have a `down` function

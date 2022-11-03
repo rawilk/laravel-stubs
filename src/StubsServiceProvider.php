@@ -11,7 +11,8 @@ use Rawilk\Stubs\Console\PublishCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class StubsServiceProvider extends PackageServiceProvider
+/** @internal */
+final class StubsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {

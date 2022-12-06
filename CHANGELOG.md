@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.1.2 - 2022-12-06
+
+### What's changed
+
+- Use new mailable syntax
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.1.1...v1.1.2
+
 ## v1.1.1 - 2022-11-03
 
 ### What's Changed

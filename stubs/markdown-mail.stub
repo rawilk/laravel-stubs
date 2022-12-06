@@ -23,7 +23,7 @@ final class {{ class }} extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: '',
+            subject: '{{ subject }}',
         );
     }
 

@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.1.4 - 2023-02-15
+
+### What's Changed
+
+- Laravel 10.x Compatibility by @rawilk in https://github.com/rawilk/laravel-stubs/pull/6
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.1.3...v1.1.4
+
 ## v1.1.3 - 2023-02-10
 
 ### What's Changed

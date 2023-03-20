@@ -47,8 +47,17 @@ jobs:
                     composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
                     composer update --${{ matrix.stability }} --prefer-dist --no-interaction
 
+            -   if: matrix.laravel == '9.*'
+                name: Install parallel plugin for Laravel 9.x
+                run: composer require --dev --no-interaction --no-update pestphp/pest-plugin-parallel
+
             -   name: List Installed Dependencies
                 run: composer show -D
 
-            -   name: Execute tests
-                run: vendor/bin/pest
+            -   if: matrix.laravel == '10.*'
+                name: Execute tests (laravel 10.x)
+                run: vendor/bin/pest --parallel
+
+            -   if: matrix.laravel == '9.*'
+                name: Execute tests (laravel 9.x)
+                run: vendor/bin/pest -p

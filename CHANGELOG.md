@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.1.5 - 2023-03-20
+
+### What's Changed
+
+- Bump aglipanci/laravel-pint-action from 2.1.0 to 2.2.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/7
+- Add Php 8.2 Compatiblity by @rawilk in https://github.com/rawilk/laravel-stubs/pull/8
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.1.4...v1.1.5
+
 ## v1.1.4 - 2023-02-15
 
 ### What's Changed

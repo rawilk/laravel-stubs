@@ -20,8 +20,10 @@ jobs:
                 include:
                     -   laravel: 10.*
                         testbench: 8.*
+                        pest: 2.*
                     -   laravel: 9.*
                         testbench: 7.*
+                        pest: 1.*
                 exclude:
                     -   laravel: 9.*
                         php: 8.2
@@ -44,7 +46,7 @@ jobs:
 
             -   name: Install dependencies
                 run: |
-                    composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
+                    composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" "pestphp/pest:${{ matrix.pest }}" --no-interaction --no-update
                     composer update --${{ matrix.stability }} --prefer-dist --no-interaction
 
             -   if: matrix.laravel == '9.*'

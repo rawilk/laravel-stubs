@@ -51,7 +51,7 @@ jobs:
 
             -   if: matrix.laravel == '9.*'
                 name: Install parallel plugin for Laravel 9.x
-                run: composer require --dev --no-interaction --no-update pestphp/pest-plugin-parallel
+                run: composer require --dev pestphp/pest-plugin-parallel
 
             -   name: List Installed Dependencies
                 run: composer show -D

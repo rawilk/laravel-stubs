@@ -24,8 +24,7 @@
     "require-dev": {
         "laravel/pint": "^1.5",
         "orchestra/testbench": "^7.8|^8.0",
-        "pestphp/pest": "^1.22",
-        "pestphp/pest-plugin-parallel": "^1.2",
+        "pestphp/pest": "^2.0",
         "spatie/laravel-ray": "^1.31"
     },
     "autoload": {
@@ -42,7 +41,7 @@
         "post-autoload-dump": [
             "@php ./vendor/bin/testbench package:discover --ansi"
         ],
-        "test": "vendor/bin/pest -p",
+        "test": "vendor/bin/pest --parallel",
         "format": "vendor/bin/pint --dirty"
     },
     "config": {

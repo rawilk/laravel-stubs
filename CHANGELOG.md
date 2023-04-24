@@ -2,6 +2,16 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.2.0 - 2023-04-24
+
+### What's Changed
+
+- Bump dependabot/fetch-metadata from 1.3.6 to 1.4.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/9
+- Remove final by @rawilk in https://github.com/rawilk/laravel-stubs/pull/10
+- Update rule stubs by @rawilk in https://github.com/rawilk/laravel-stubs/pull/11
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.1.5...v1.2.0
+
 ## v1.1.5 - 2023-03-20
 
 ### What's Changed

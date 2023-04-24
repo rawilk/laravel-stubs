@@ -6,7 +6,7 @@ namespace {{ namespace }};
 
 use Illuminate\Contracts\Validation\InvokableRule;
 
-final class {{ class }} implements InvokableRule
+class {{ class }} implements InvokableRule
 {
     public bool $implicit = true;
 

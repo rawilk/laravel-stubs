@@ -15,7 +15,6 @@ This repo contains opinionated versions of the Laravel stubs. The most notable c
 - none of the model attributes are guarded
 - use return type hints where possible
 - most docblocks have been removed
-- `final` has been added to most classes
 - `declare(strict_types=1);` added to most files
 
 ## Installation

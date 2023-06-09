@@ -2,6 +2,16 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.2.1 - 2023-06-09
+
+### What's Changed
+
+- Bump dependabot/fetch-metadata from 1.4.0 to 1.5.1 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/12
+- Bump aglipanci/laravel-pint-action from 2.2.0 to 2.3.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/13
+- Fix factory name/namespace placeholders
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.2.0...v1.2.1
+
 ## v1.2.0 - 2023-04-24
 
 ### What's Changed

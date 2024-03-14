@@ -2,6 +2,18 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.2.2 - 2024-03-14
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/14
+* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/15
+* Bump stefanzweifel/git-auto-commit-action from 4 to 5 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/16
+* Bump aglipanci/laravel-pint-action from 2.3.0 to 2.3.1 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/17
+* Add Laravel 11.x Support by @rawilk in https://github.com/rawilk/laravel-stubs/pull/18
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.2.1...v1.2.2
+
 ## v1.2.1 - 2023-06-09
 
 ### What's Changed

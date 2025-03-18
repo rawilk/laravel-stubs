@@ -2,6 +2,22 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v2.0.0 - 2025-03-18
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/25
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/26
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/27
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/37
+* Require a minimum php 8.2 version
+* Require a minimum Laravel 11.x version
+* Add support for Laravel 12.x
+* Return a status code in the console stub
+* Switch to timestamps in create migration stub
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.3.0...v2.0.0
+
 ## v1.3.0 - 2024-04-09
 
 ### What's Changed

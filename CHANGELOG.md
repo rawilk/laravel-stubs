@@ -2,6 +2,20 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v1.3.0 - 2024-04-09
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/rawilk/laravel-stubs/pull/19
+* Add trait stub by @rawilk in https://github.com/rawilk/laravel-stubs/pull/22
+* Add interface stub by @rawilk in https://github.com/rawilk/laravel-stubs/pull/21
+* Add class stubs by @rawilk in https://github.com/rawilk/laravel-stubs/pull/20
+* Add enum stubs by @rawilk in https://github.com/rawilk/laravel-stubs/pull/23
+* Add listener stubs by @rawilk in https://github.com/rawilk/laravel-stubs/pull/24
+* Minor changes to some stubs
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v1.2.2...v1.3.0
+
 ## v1.2.2 - 2024-03-14
 
 ### What's Changed

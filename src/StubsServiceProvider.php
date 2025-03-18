@@ -23,7 +23,7 @@ final class StubsServiceProvider extends PackageServiceProvider
             ]);
     }
 
-    public function packageRegistered()
+    public function packageRegistered(): void
     {
         $this->registerLaravelExtensions();
     }

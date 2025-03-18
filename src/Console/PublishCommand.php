@@ -19,10 +19,10 @@ class PublishCommand extends Command
 
     protected $description = 'Publish all opinionated stubs that are available for customization.';
 
-    public function handle()
+    public function handle(): int
     {
         if (! $this->confirmToProceed()) {
-            return 1;
+            return self::FAILURE;
         }
 
         if (! is_dir($stubsPath = $this->laravel->basePath('stubs'))) {
@@ -35,6 +35,8 @@ class PublishCommand extends Command
         $published = $this->publish($files);
 
         $this->info("{$published} / {$files->count()} stubs published.");
+
+        return self::SUCCESS;
     }
 
     protected function unpublished(Collection $files): Collection
@@ -46,7 +48,7 @@ class PublishCommand extends Command
 
     protected function publish(Collection $files): int
     {
-        return $files->reduce(function (int $published, SplFileInfo $file) {
+        return (int) $files->reduce(function (int $published, SplFileInfo $file) {
             file_put_contents($this->targetPath($file), file_get_contents($file->getPathname()));
 
             return $published + 1;

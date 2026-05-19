@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## v2.1.0 - 2026-05-19
+
+### What's Changed
+
+* Add Laravel 13.x support
+* Add PHP 8.5 support
+
+**Full Changelog**: https://github.com/rawilk/laravel-stubs/compare/v2.0.0...v2.1.0
+
 ## v2.0.0 - 2025-03-18
 
 ### What's Changed
